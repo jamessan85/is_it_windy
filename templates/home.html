@@ -1,0 +1,28 @@
+
+<div class="container">
+<div class="row">
+  <div class="col-md-12">
+    <div class="align-flex">
+    <form>
+        <div class="form-group">
+          Location <input id="location" type="text" class="form-control" ng-model="location" ng-model-options='{ debounce: 1000 }' ng-change="my_wind_choice()"/>
+        </div>
+        <div class="form-group">
+          Wind speed you can put up with(mph) <input type="number" class="form-control" ng-model="number" ng-change="my_wind_choice()"/>
+        </div>
+        <div class="align-flex">
+            <div class="button-area">
+              <button class="send btn btn-default" type="submit">Submit</button>
+              <button class="reset btn btn-default" type="reset">Reset</button>
+            </div>
+        </div>
+        </form>
+    </div>
+          <div class="changes">
+            <h2>Currently {{myWind}} mph winds in {{location}}. Blowing from the <span id="wind"></span></h2>
+            <h2 id="message"></h2>
+            <img id="gif" height="150" width="350" />
+          </div>
+  </div>
+</div>
+</div>

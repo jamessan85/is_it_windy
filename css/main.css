@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(20, 193, 231);
+}
+
+.changes {
+  display: none;
+  text-align: center;
+}
+
+.button-area {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.align-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-md-12 {
+  background-color: rgb(20, 193, 231);
+ 
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Nosifer', cursive;
+
+}
+
+.navbar {
+  background-image: url("tenor (1).gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@media screen and (max-width: 600px){
+ h2 {
+  font-size: 1em;
+ }
+
+}
